@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <Link rel="Stylesheet" href="goass.css">
+    <script src="https://kit.fontawesome.com/eed794ba7e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/G15current.png">
+                <ul id="sidemenu">
+                    <li><a href="#header">  HOME  </a></li>
+                    <li><a href="#about">  ABOUT  </a></li>
+                    <li><a href="#service">  SERVICES  </a></li>
+                    <li><a href="#portfolio">  PORTIFOLIO  </a></li>
+                    <li><a href="#contact">  CONTACT  </a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> OLADIPUPO JOHN O</p>
+                <h1> HE IS WEB DEVELOPER, HE IS ALSO AN AGRICULTURIST  <span>FARMER</span><br>  </h1>
+            </div>
+        </div>
+    </div>
+
+     <!--------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="images/" alt="">
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>      </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education </p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span> WEB DESIGNER</span><br>Designing Web App interface</li>
+                            <li><span> AGRICULTURE EXPORT</span><br>Designing Web App interface</li>
+                            <li><span> FOOD PROCESSING</span><br>Designing Web App interface</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+
+                        <ul>
+                            <li><span>2007 - 2008</span><br>Designing Web App interface</li>
+                            <li><span>2009 - 2011 </span><br>Designing Web App interface</li>
+                            <li><span>2014 - TILL DATE</span><br>Designing Web App interface</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>STUDIED IN USA</span><br>Designing Web App interface</li>
+                            <li><span>STUDIED IN RUSSIA</span><br>Designing Web App interface</li>
+                            <li><span>STUDIED IN NIGERIA</span><br>Designing Web App interface</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------services-->
+
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title"> My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2> FOOD DISTRIBUTION</h2>
+                    <p>welcome</p>
+                    <a href="#"> Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>EXPORT </h2>
+                    <p>  appreciated    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2> DELIVERY </h2>
+                    <p>  congratulation    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------portfolio-------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/" >
+                    <div class="layer">
+                        <h3>Social media app </h3>
+                        <p> follow your talent</p>
+                        <a href="#"><i class="fa-regular fa-photo-film"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/" >
+                    <div class="layer">
+                        <h3>Social media app </h3>
+                        <p> follow your talent</p>
+                        <a href="#"><i class="fa-regular fa-photo-film"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/" >
+                    <div class="layer">
+                        <h3> Music app </h3>
+                        <p> follow your talent</p>
+                        <a href="#"><i class="fa-solid fa-music"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">SEE MORE</a>
+        </div>
+    </div>
+
+<!---------contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-solid fa-at"></i> Hojayolatunde@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +234-8159748287</p>
+                <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" download  class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ John. Made with <i class="fa-solid fa-heart"></i> by G15 enterprise </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+</script>
+
+
+</body>
+</html>
